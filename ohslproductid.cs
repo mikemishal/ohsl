@@ -27,7 +27,7 @@ namespace ohsl.Function
 
             string responseMessage = string.IsNullOrEmpty(productId)
                 ? "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response."
-                : $"The product name for your product id {productId} is Starfruit Explosion!!!!";
+                : $"The product name for your product id {productId} is Starfruit Explosion";
 
             return new OkObjectResult(responseMessage);
         }
